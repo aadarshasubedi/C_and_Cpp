@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 enum card_suit { SPD, HRT, DIA, CLB };
+// Queen and King are 12 and 13 automatically
 enum card_rank { ACE = 1, JACK = 11, QUEEN, KING };
 
 const char * aceString = "Ace";
@@ -10,7 +11,7 @@ const char * queString = "Queen";
 const char * kngString = "King";
 const char * spdString = "Spades";
 const char * hrtString = "Hearts";
-const char * diaString = "Diamonds";
+const char * diaString = "Diamonds";:w
 const char * clbString = "Clubs";
 
 typedef struct card {
